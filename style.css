@@ -172,7 +172,7 @@ nav {
     background: rgba(0, 0, 0, 0.85);
     text-align: center;
     padding: 20px 0;
-    border-radius: 0px 0px 0px 20px;
+    border-radius: 0px 0px 20px 0px;
   }
 
   .nav-links a {
