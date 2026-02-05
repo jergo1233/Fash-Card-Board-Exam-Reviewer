@@ -166,7 +166,7 @@ nav {
     display: none;
     position: absolute;
     top: 50px;
-    right: 0;
+    left: 0;
     width: 40%;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.85);
