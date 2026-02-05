@@ -326,6 +326,10 @@ const navLinks = document.getElementById("navLinks");
 menuToggle.onclick = () => {
   navLinks.classList.toggle("active");
 };
-
+document.querySelectorAll("#navLinks a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+  });
+});
   showHome();
 });
